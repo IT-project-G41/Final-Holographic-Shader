@@ -1,4 +1,5 @@
 # Holographic_shader
+Version: 1.0
 This is a shader that renders holographic projection effects on untextured models. 
 The effects included so far are:
 1. Flow animation of scan line
