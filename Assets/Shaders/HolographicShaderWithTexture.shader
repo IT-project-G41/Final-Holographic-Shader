@@ -2,6 +2,22 @@
 
 Shader "MyShader/HoloShaderWithTexture"
 {
+
+/*
+This is a statement to declare the refernece material 
+in this code, some effect referenced some materials. 
+the source of refernced materials include:
+1. https://zhuanlan.zhihu.com/p/163001556
+2. https://zhuanlan.zhihu.com/p/141940278
+3. Book: Unity Shader 入门精要
+4. https://blog.csdn.net/xiaoge132/article/details/77801931
+
+*/
+
+
+
+
+
     Properties
     {
         _ScanTex ("scan line Texture", 2D) = "white" {}

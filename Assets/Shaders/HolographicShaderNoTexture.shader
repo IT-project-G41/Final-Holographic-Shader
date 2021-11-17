@@ -2,9 +2,25 @@
 
 Shader "MyShader/HoloShaderNoTexture"
 {
+
+/*
+This is a statement to declare the refernece material 
+in this code, some effect referenced some materials. 
+the source of refernced materials include:
+1. https://zhuanlan.zhihu.com/p/163001556
+2. https://zhuanlan.zhihu.com/p/141940278
+3. Book: Unity Shader 入门精要
+
+*/
+
+
+
+
+
+
     Properties
     {
-        _Color ("Color", Color) = (1,1,1,1)    //模型颜色
+        _Color ("Color", Color) = (1,1,1,1)    //model Color
         _MainTex ("Main Texture", 2D) = "white" {}
         _Gloss ("Gloss", Range(10, 200)) = 20
         _Speed ("Speed", Range(-5, 15)) = 1
